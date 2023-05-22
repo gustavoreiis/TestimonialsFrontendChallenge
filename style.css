@@ -7,10 +7,14 @@
 body {
     background-color: #ecf2f8;
     font-family: 'Barlow Semi Condensed', sans-serif;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+
 }
 
 #testimonial-grid-container {
-    padding: 5% 3%;
+    width: min(75%, 70rem);
 }
 
 #testimonial-1 {
